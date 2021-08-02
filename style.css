@@ -1,0 +1,13 @@
+#grid-container {
+	display: grid;
+	width: 500px;
+	height: 500px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+	1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+	1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+	border: 1px solid black;
+}
