@@ -6,23 +6,21 @@ h1 {
 	text-align: center;
 	font-size: 46px;
 	font-weight: 700;
+	margin-bottom: 60px;
 }
 
 main {
 	display: flex;
 	justify-content: center;
-	min-width: 840px;
+	min-width: 940px;
 }
 
 #grid-container {
 	display: grid;
-	width: 500px;
-	min-width: 500px;
-	height: 500px;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
-	1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
-	1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	width: 600px;
+	min-width: 600px;
+	height: 600px;
+	border: 2px solid #000000;
 }
 
 .grid-item {
@@ -34,12 +32,22 @@ main {
 }
 
 h6 {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 500;
 }
 
-#clear-button {
+.settings-button {
 	font-family: "Source Code Pro", monospace;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 500;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.settings-button:hover {
+	background-color: #000000;
+	color: #ffffff;
+	cursor: pointer;
 }
